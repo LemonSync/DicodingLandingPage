@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
  
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   font-family: 'Quicksand', sans-serif;
  
@@ -170,10 +175,20 @@ main aside .social-media li a:hover {
   color: #89b0d9;
 }
 
+main {
+    display: grid;
+}
 
+.formClass {
+    display: grid;
+}
 
-
-
+.formClass input[type=text],
+.formClass input[type=email] {
+    width: 200px;
+    background-color: #a2b2c4;
+    
+}
 
 .logoClass {
     display: flex;
